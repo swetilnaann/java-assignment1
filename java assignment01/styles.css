@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Courier New', monospace; /* classic, monospace font */
+    background-color: lightblue; /* warm, sunny yellow */
+    text-align: center; /* center all text */
+}
+
+header {
+    background-color: darkorange; /* vibrant, golden yellow */
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0; /* rounded top corners */
+    margin: 40px auto 0 auto; /* center the header with top margin */
+    width: 80%; /* set the header width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center all main content */
+    padding: 20px;
+}
+
+section {
+    background-color: dodgerblue;
+    padding: 20px;
+    margin: 20px auto; /* center the sections with top and bottom margins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* rounded corners */
+    width: 80%; /* set the section width */
+}
+
+button {
+    background-color: darkorange; /* vibrant, orange-yellow */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* smooth hover effect */
+}
+
+button:hover {
+    background-color: darkorange; /* bright, orange-pink */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px; /* slightly larger font size */
+}
+
+#story {
+    font-size: 22px; /* even larger font size for the story */
+    font-weight: bold; /* bold font weight for the story */
+    color: green; /* green text color for the story */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* subtle text shadow */
+    margin-bottom: 40px; /* add bottom margin to the story */
+}
+
+h1, h2 {
+    color: darkorange; /* orange text color for headings */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* subtle text shadow */
+}
